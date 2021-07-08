@@ -21,10 +21,10 @@ Repository to hold information on how to run GATK Mutect2 Somatic Variant discov
 6. Call mutations by Mutect2
 `./mutect2_calling.sh`
 
-7. a. (Optional Branch-1) Convert VCF into tsv format that can be next used by pandas
+7-a. (Optional Branch-1) Convert VCF into tsv format that can be next used by pandas
 `vcf_to_tsv.sh`
 
-7. b. (Optional Branch-2) Convert VCF into MAF format that can be used for clustering
+7-b. (Optional Branch-2) Convert VCF into MAF format that can be used for clustering
 
 
 | FileName | Short Description |
