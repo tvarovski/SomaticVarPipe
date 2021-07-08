@@ -3,28 +3,28 @@ Repository to hold information on how to run GATK Mutect2 Somatic Variant discov
 
 ## How to do Mutect2 calling
 
-### Create bam files from the reads and sort
+1. Create bam files from the reads and sort
 `./createbams.sh`
 
-### Add missing Read Groups to the read headers
+2. Add missing Read Groups to the read headers
 `./add_RG.sh`
 
-### Run Mutect2 in your tumor only mode
+3. Run Mutect2 in your tumor only mode
 `./tumorOnlyMode.sh`
 
-### Create DataBase to be used in making the Panel of Normals
+4. Create DataBase to be used in making the Panel of Normals
 `./createGenomicsDB.sh`
 
-### Make Panel of Normals (PON)
+5. Make Panel of Normals (PON)
 `./createPON.sh`
 
-### Call mutations by Mutect2
+6. Call mutations by Mutect2
 `./mutect2_calling.sh`
 
-### (Optional Branch-1) Convert VCF into tsv format that can be next used by pandas
+7a. (Optional Branch-1) Convert VCF into tsv format that can be next used by pandas
 `vcf_to_tsv.sh`
 
-### (Optional Branch-2) Convert VCF into MAF format that can be used for clustering
+7b. (Optional Branch-2) Convert VCF into MAF format that can be used for clustering
 
 
 | FileName | Short Description |
