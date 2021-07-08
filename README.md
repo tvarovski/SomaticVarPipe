@@ -27,9 +27,8 @@ Repository to hold information on how to run GATK Mutect2 Somatic Variant discov
 ### (Optional Branch-2) Convert VCF into MAF format that can be used for clustering
 
 
----
 | FileName | Short Description |
----
+| --- | --- |
 | createbams.sh | takes input reads and outputs bam files |
 | tumorOnlyMode.sh | Runs Mutect2 in a tumor-only mode |
 | add_RG.sh | adds Read Groups with sample information to the reads headers |
